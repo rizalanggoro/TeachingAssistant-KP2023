@@ -1,4 +1,4 @@
-# Pengantar
+# 2.1 - Pengantar (Program Sederhana, Variabel, dan Input/Output)
 
 Contoh program sederhana, pengenalan variabel, dan input/output sederhana.
 
@@ -218,3 +218,5 @@ scanf("%d", &umur);
 Kode tersebut akan menangkap masukan pengguna berupa `string` kemudian nilai tersebut akan dimasukkan ke dalam variabel `nama`. Setelah itu, kode yang berikutnya akan menangkap masukan pengguna berupa `int` kemudian nilai tersebut akan dimasukkan ke dalam variabel `umur`.
 
 Diperlukan _ampersand_ ( `&` ) di depan variabel dengan tipe data integer/floating point.
+
+[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)>>](2-AlgoritmaPseudocodeDanSourceCode.md.md)
