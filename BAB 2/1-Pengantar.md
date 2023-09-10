@@ -1,8 +1,8 @@
-## Pengantar
+# Pengantar
 
 Contoh program sederhana, pengenalan variabel, dan input/output sederhana.
 
-### Contoh Program Sederhana
+## Contoh Program Sederhana
 
 Ketika kita mulai belajar tentang bahasa pemrograman khususnya bahasa C, program yang akan teman-teman kenal pertama kali adalah _program hello world_ seperti berikut ini.
 
@@ -16,7 +16,7 @@ int main() {
 }
 ```
 
-#### Memahami Program Hello World
+### Memahami Program Hello World
 
 Mari kita pahami masing-masing baris dari program hello world tersebut.
 
@@ -77,13 +77,13 @@ Kode tersebut merupakan baris komentar yang tidak akan dijalankan pada program. 
 
 <br />
 
-### Pengenalan Variabel
+## Pengenalan Variabel
 
 Hampir pada semua bahasa pemrograman terdapat sebuah sistem variabel. Variabel adalah suatu tempat yang digunakan untuk menampung data di dalam memori dengan nilai yang berubah-ubah selama program berjalan. Isi dari variabel dapat berubah dari waktu ke waktu sesuai dengan kebutuhan. Hal ini berbeda dengan konsep konstanta yang nilainya akan tetap dan tidak berubah hingga program selesai.
 
 Pada bahasa C terdapat beberapa tipe variabel yang dapat digunakan. Variabel-variabel tersebut dapat dilihat seperti tabel berikut.
 
-#### Tipe Data
+### Tipe Data
 
 | Tipe Data        | Jenis Data                       | Pendefinisian                                                                    |
 | ---------------- | -------------------------------- | -------------------------------------------------------------------------------- |
@@ -98,7 +98,7 @@ Tipe data `unsigned` tidak dapat merepresentasikan bilangan negatif, namun renta
 
 Floating point dapat menyimpan bilangan real seperti `3.14`, `12.345`, `1.0`, dan lainnya.
 
-#### Pendefinisian Variabel
+### Pendefinisian Variabel
 
 Variabel-variabel yang akan digunakan pada program bahasa C harus didefinisikan terlebih dahulu sebelum digunakan. Sebagai contoh, kita ingin mendefinisikan variabel bernama `jumlahApel` dan `jumlahJeruk` dengan nilai 13 dan 21. Karena 13 dan 21 merupakan bilangan bulat, maka kita bisa menggunakan tipe data `int` sehingga penulisannya adalah seperti berikut.
 
@@ -121,11 +121,11 @@ float totalNilai = 3.89;
 
 <br />
 
-### Input dan Output
+## Input dan Output
 
 Input dan output adalah cara agar program yang kita buat bisa berinteraksi dengan dunia luar, baik dengan file, program lain, atau pengguna. Untuk materi kali ini, kita hanya akan membahas input/output yang melibatkan pengguna.
 
-#### Basic Output
+### Basic Output
 
 Salah satu contoh output yang paling sederhana adalah dengan mencetak tulisan atau angka ke console. Seperti yang telah kita bahas di awal, tentang program hello world, kita menggunakan fungsi `printf()` untuk mencetak apapun yang kita berikan ke console.
 
@@ -185,7 +185,7 @@ Output:
 Nama Budi, umur 19 tahun, dan nilai 3.890000
 ```
 
-#### Basic Input
+### Basic Input
 
 Selanjutnya, kita akan mempelajari bagaimana cara meminta pengguna untuk mengisi sebuah variabel yang terdapat di program kita. Perhatikan contoh kode berikut.
 
