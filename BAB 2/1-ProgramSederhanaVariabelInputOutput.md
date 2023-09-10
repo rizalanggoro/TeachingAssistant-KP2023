@@ -219,4 +219,4 @@ Kode tersebut akan menangkap masukan pengguna berupa `string` kemudian nilai ter
 
 Diperlukan _ampersand_ ( `&` ) di depan variabel dengan tipe data integer/floating point.
 
-[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)>>](2-AlgoritmaPseudocodeDanSourceCode.md.md)
+[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)>>](2-AlgoritmaPseudocodeDanSourceCode.md)
