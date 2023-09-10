@@ -217,6 +217,6 @@ scanf("%d", &umur);
 
 Kode tersebut akan menangkap masukan pengguna berupa `string` kemudian nilai tersebut akan dimasukkan ke dalam variabel `nama`. Setelah itu, kode yang berikutnya akan menangkap masukan pengguna berupa `int` kemudian nilai tersebut akan dimasukkan ke dalam variabel `umur`.
 
-Diperlukan _ampersand_ ( `&` ) di depan variabel dengan tipe data integer/floating point.
+Diperlukan _ampersand_ ( `&` ) di depan variabel dengan tipe data integer/floating point. Fungsi `scanf()` yang kita gunakan ini memiliki sebuah kekurangan, yaitu tidak bisa menerima _string_ yang ber-spasi. Namun, kita akan tetap menggunakan metode ini untuk sekarang.
 
 [>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)>>](2-AlgoritmaPseudocodeDanSourceCode.md)
