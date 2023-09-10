@@ -16,18 +16,18 @@ Format penggunannya yaitu:
 
 ```c
 if (/* kondisi */) {
-    /* perintah... */
+  /* perintah... */
 }
 /* opsional: */
 else if (/* kondisi lain */) {
-    /* perintah... */
+  /* perintah... */
 }
 else if (/* kondisi lainnya lagi) {
-    /* perintah... */
+  /* perintah... */
 }
 /* else if ... */
 else {
-    /* perintah... */
+  /* perintah... */
 }
 ```
 
@@ -37,7 +37,7 @@ Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` **memilik
 
 ```c
 if (nilaiSaya == 100) {
-    printf("Bagus!\n");
+  printf("Bagus!\n");
 }
 ```
 
@@ -45,9 +45,9 @@ Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki 
 
 ```c
 if (nilaiSaya >= 85) {
-    printf("Bagus!\n");
+  printf("Bagus!\n");
 } else {
-    printf("Coba lagi\n");
+  printf("Coba lagi\n");
 }
 ```
 
@@ -55,11 +55,11 @@ Potongan kode berikut menampilkan "Bagus!" di layar ketika `nilaiSaya` memiliki 
 
 ```c
 if (nilaiSaya >= 85) {
-    printf("Bagus!\n");
+  printf("Bagus!\n");
 } else if ((nilaiSaya < 85) && (nilaiSaya >= 50)) {
-    printf("Cukup\n");
+  printf("Cukup\n");
 } else {
-    printf("Coba lagi\n");
+  printf("Coba lagi\n");
 }
 ```
 
@@ -67,29 +67,29 @@ Potongan kode berikut menampilkan "Lulus" di layar ketika `nilaiSaya` memiliki v
 
 ```c
 if (nilaiSaya >= 50) {
-    printf("Lulus\n");
+  printf("Lulus\n");
 } else if (nilaiSaya < 50) {
-    printf("Tidak lulus\n");
+  printf("Tidak lulus\n");
 }
 ```
 
 ### Operator Pembanding
 
 | Operator | Keterangan                        | Penjelasan                                     |
-| -------- | --------------------------------- | ---------------------------------------------- |
-| A == B   | sama dengan                       | cek jika A sama dengan B                       |
-| A != B   | tidak sama dengan                 | cek jika A tidak sama dengan B                 |
-| A > B    | lebih besar dari                  | cek jika A lebih besar dari B                  |
-| A >= B   | lebih besar dari atau sama dengan | cek jika A lebih besar dari atau sama dengan B |
-| A < B    | kurang dari                       | cek jika A kurang dari B                       |
-| A <= B   | kurang dari atau sama dengan      | cek jika A kurang dari atau sama dengan B      |
+| :------: | --------------------------------- | ---------------------------------------------- |
+|  A == B  | sama dengan                       | cek jika A sama dengan B                       |
+|  A != B  | tidak sama dengan                 | cek jika A tidak sama dengan B                 |
+|  A > B   | lebih besar dari                  | cek jika A lebih besar dari B                  |
+|  A >= B  | lebih besar dari atau sama dengan | cek jika A lebih besar dari atau sama dengan B |
+|  A < B   | kurang dari                       | cek jika A kurang dari B                       |
+|  A <= B  | kurang dari atau sama dengan      | cek jika A kurang dari atau sama dengan B      |
 
 ### Konjungsi
 
 | Operator | Keterangan  | Penjelasan                                                                                                 |
-| -------- | ----------- | ---------------------------------------------------------------------------------------------------------- |
-| !A       | tidak (NOT) | dijalankan apabila kondisi A tidak bernilai benar                                                          |
-| A && B   | dan (AND)   | dijalankan apabila kondisi A dan B semuanya benar                                                          |
+| :------: | ----------- | ---------------------------------------------------------------------------------------------------------- |
+|    !A    | tidak (NOT) | dijalankan apabila kondisi A tidak bernilai benar                                                          |
+|  A && B  | dan (AND)   | dijalankan apabila kondisi A dan B semuanya benar                                                          |
 | A \|\| B | atau (OR)   | dijalankan apabila kondisi A bernilai benar atau B bernilai benar (salah satu dari A dan B bernilai benar) |
 
 ### Tips
@@ -104,20 +104,20 @@ if (nilaiSaya >= 50) {
 ```c
 #include <stdio.h>
 int main() {
-    int nilaiSaya;
+  int nilaiSaya;
 
-    printf("Masukkan nilai anda: ");
-    scanf("%d", &nilaiSaya);
+  printf("Masukkan nilai anda: ");
+  scanf("%d", &nilaiSaya);
 
-    if (nilaiSaya >= 85) {
-        printf("Bagus!\n");
-    } else if ((nilaiSaya < 85) && (nilaiSaya >= 50)) {
-        printf("Cukup\n");
-    } else {
-        printf("Coba lagi\n");
-    }
+  if (nilaiSaya >= 85) {
+    printf("Bagus!\n");
+  } else if ((nilaiSaya < 85) && (nilaiSaya >= 50)) {
+    printf("Cukup\n");
+  } else {
+    printf("Coba lagi\n");
+  }
 
-    return 0;
+  return 0;
 }
 
 /*
@@ -136,7 +136,7 @@ Format penggunaannya yaitu:
 
 ```c
 while (/* kondisi */) {
-    /* perintah... */
+  /* perintah... */
 }
 ```
 
@@ -147,8 +147,8 @@ Potongan kode berikut menampilkan "Quack!" sebanyak 10 kali di layar console
 ```c
 int i = 1;
 while (i <= 10) {
-    printf("Quack!\n");
-    i++;
+  printf("Quack!\n");
+  i++;
 }
 ```
 
@@ -166,8 +166,8 @@ Potongan kode berikut menampilkan pola 2 4 6 8 ... 100 di layar console
 ```c
 int i = 2;
 while (i < 102) {
-    printf("%d ", i);
-    i = i + 2;
+  printf("%d ", i);
+  i = i + 2;
 }
 ```
 
@@ -186,19 +186,19 @@ Analisa kode di atas:
 #include <stdio.h>
 
 int main() {
-    int i, count;
+  int i, count;
 
-    printf("Masukkan jumlah quack: ");
-    scanf("%d", &count);
+  printf("Masukkan jumlah quack: ");
+  scanf("%d", &count);
 
-    i = 1;
-    while (i <= count) {
-        printf("Quack! ");
-        i++;
-    }
-    printf("\n");
+  i = 1;
+  while (i <= count) {
+    printf("Quack! ");
+    i++;
+  }
+  printf("\n");
 
-    return 0;
+  return 0;
 }
 
 /*
