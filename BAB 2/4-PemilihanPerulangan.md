@@ -209,4 +209,4 @@ Quack! Quack! Quack!
 */
 ```
 
-[>> Berikutnya (Tugas) >>](5-Tugas.md)
+[>> Silabus >>](../silabus.md)
