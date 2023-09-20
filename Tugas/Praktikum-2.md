@@ -47,5 +47,5 @@ itu juga.
 
 ## Format Pengumpulan
 - File source code merupakan bahasa C dengan ekstensi `.c`
-- Compress ke empat source code kedalam 1 file `.zip` atau `.rar`
-- Format nama file `PKP02_NIM_NamaLengkap.zip`
+- Format nama file sesuai dengan deskripsi masing-masing tugas yang ada diatas
+- File tidak boleh berbentuk `.zip`, `.rar`, atau file archiver lainnya
