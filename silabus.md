@@ -21,6 +21,13 @@
   3. [Scope](BAB%204/3-Scope.md)
   4. [Fungsi Rekursif](BAB%204/4-Rekursi.md)
 
+- ### BAB 5 - Array
+
+  1. [Pengenalan Array](BAB5-Array/1-PengenalanArray.md)
+  2. [Array Multidimensi](BAB5-Array/2-ArrayMultidimensi.md)
+  3. [Array sebagai Parameter Fungsi](BAB5-Array/3-ArraySebagaiParameterFungsi.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
+  3. [Praktikum 3](Tugas/Praktikum-3.md)
