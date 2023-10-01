@@ -23,9 +23,9 @@
 
 - ### BAB 5 - Array
 
-  1. [Pengenalan Array](BAB5-Array/1-PengenalanArray.md)
-  2. [Array Multidimensi](BAB5-Array/2-ArrayMultidimensi.md)
-  3. [Array sebagai Parameter Fungsi](BAB5-Array/3-ArraySebagaiParameterFungsi.md)
+  1. [Pengenalan Array](BAB%205/1-PengenalanArray.md)
+  2. [Array Multidimensi](BAB%205/2-ArrayMultidimensi.md)
+  3. [Array sebagai Parameter Fungsi](BAB%205/3-ArraySebagaiParameterFungsi.md)
 
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
