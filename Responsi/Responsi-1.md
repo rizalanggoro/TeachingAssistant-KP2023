@@ -58,3 +58,6 @@ Misal mengerjakan tema Perusahaan dengan kode 06 maka formatnya:
 
 - `Responsi1_06_L0122142_RizalDwiAnggoro.c`
 - `Responsi1_06_L0122142_RizalDwiAnggoro.pdf`
+
+## Referensi
+[How to format C++ code so it doesn't look like trash](https://www.youtube.com/watch?v=MfOxPGMoixM)
