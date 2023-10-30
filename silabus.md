@@ -27,6 +27,12 @@
   2. [Array Multidimensi](BAB%205/2-ArrayMultidimensi.md)
   3. [Array sebagai Parameter Fungsi](BAB%205/3-ArraySebagaiParameterFungsi.md)
 
+- ### BAB 6 - Pointer
+
+  1. [Pengenalan Pointer](BAB%206/1-Pengenalan.md)
+  2. [Pass By Reference](BAB%206/2-PassByRef.md)
+  3. [Dynamic Memory Allocation](BAB%206/3-DMA.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
