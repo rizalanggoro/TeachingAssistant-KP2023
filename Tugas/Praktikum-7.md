@@ -37,11 +37,12 @@ array[0] = 10;
 /*
   karena saat ini array hanya dapat menampung maksimal 1 data, maka perlu dilakukan realokasi terlebih dahulu.
  */
-realloc(array, sizeof(int) * 2);
+array = realloc(array, sizeof(int) * 2);
+// array = (int*) realloc(array, sizeof(int) * 2);
 array[1] = 12;
 
 // memasukkan 2 data lagi ke array
-realloc(array, sizeof(int) * 4);
+array = realloc(array, sizeof(int) * 4);
 array[2] = 14;
 array[3] = 16;
 
