@@ -33,6 +33,17 @@
   2. [Pass By Reference](BAB%206/2-PassByRef.md)
   3. [Dynamic Memory Allocation](BAB%206/3-DMA.md)
 
+- ### BAB 7 - Formatted IO
+
+  1. [Printf Formats](BAB%207/1-PrintfFormats.md)
+  2. [Scanf Formats](BAB%207/2-ScanfFormats.md)
+
+- ### BAB 8 - Topik C Lanjutan
+
+  1. [Struct dan union](BAB%208/1-StructUnion.md)
+  2. [Bit manipulation](BAB%208/2-BitManipulation.md)
+  3. [Enumeration](BAB%208/3-Enum.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
