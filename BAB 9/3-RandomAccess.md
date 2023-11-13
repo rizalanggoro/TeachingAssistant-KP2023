@@ -7,13 +7,16 @@
 ## Operasi Penulisan (Write)
 
 Dalam menulis ke file berjenis binary, dapat menggunakan fungsi `fwrite` yang terdeklarasi sebagai berikut:
+
 ```c
 /* Tipe data size_t merupakan type alias dari satu bilangan bulat unsigned */
 size_t fwrite(const void *src, size_t blocksize, size_t n, FILE *f);
 ```
+
 Fungsi tersebut menulis blok yang diambil dari pointer `src` sebanyak `n` yang tiap blok berukuran `size` menuju file `f`. Akan me-return suatu angka yang menyatakan jumlah blok yang berhasil ditulis (jika sukses, nilainya seharusnya sama dengan parameter `n`)
 
 Perhatikan contoh berikut:
+
 ```c
 FILE *f;
 char nama[100];
@@ -58,14 +61,15 @@ Cobalah untuk membuka file **biodata.bin** menggunakan notepad. Apa yang akan an
 
 Berapa ukuran file dari **biodata.bin**? Apakah 154 bytes? Kemudian cobalah untuk mengganti data yang anda inputkan pada console dan lihatlah ukuran dari **biodata.bin** lagi. Apakah masih sama? Hal itu dikarenakan tiap blok disimpan dengan ukuran yang tetap (fixed) yang mana blok nama disimpan dengan ukuran 100 bytes tanpa memedulikan seberapa panjang string yang dimasukkan, blok prodi disimpan dengan ukuran 50 bytes dan tanpa memedulikan seberapa panjang string yang dimasukkan juga, dan blok angkatan disimpan dengan ukuran 4 bytes sehingga total adalah 154 bytes. Dengan demikian, perbedaan nilai pada data yang disimpan dalam file yang memiliki layout yang sama selalu menghasilkan ukuran file yang sama juga. Hal ini berbeda dengan sequential access (plaintext) di mana ukuran file bergantung pada representasi suatu variable dalam bentuk string (misal jika jumlah digit suatu angka adalah sebanyak 6 digit, maka angka tersebut membutuhkan ruang 6 bytes pada file plaintext, dan jika panjang suatu string adalah sebanyak 16 karakter, maka string tersebut membutuhkan ruang 16 bytes pada file plaintext) dan dengan demikian file plaintext tidak menjamin kesamaan ukuran file untuk berbagai kemungkinan data.
 
-
 ## Operasi Pembacaan (Read)
 
 Dalam membaca file berjenis binary, dapat menggunakan fungsi `fread` yang terdeklarasi sebagai berikut:
+
 ```c
 /* Tipe data size_t merupakan type alias dari satu bilangan bulat unsigned */
 size_t fread(void *dest, size_t blocksize, size_t n, FILE *f);
 ```
+
 Fungsi tersebut membaca blok sebanyak `n` yang tiap blok berukuran `size` dalam file `f` dan kemudian hasilnya disimpan pada pointer `dest`. Akan me-return suatu angka yang menyatakan jumlah blok yang berhasil dibaca (jika sukses, nilainya seharusnya sama dengan parameter `n`)
 
 Perhatikan contoh berikut:
@@ -109,6 +113,7 @@ Angkatan : 2020
 Suatu array (fixed size) dapat dibaca/ditulis dengan mudah dalam file jika menggunakan mode random-access (binary) dengan block size adalah ukuran tiap-tiap elemen array. Perhatikan contoh di bawah
 
 Penulisan (write):
+
 ```c
 FILE *f;
 int price_list[5] = {750, 1500, 2500, 3100, 4750};
@@ -119,6 +124,7 @@ fwrite(price_list, sizeof(int), 5, f);
 ```
 
 Pembacaan (read):
+
 ```c
 FILE *f;
 int price_list[5];
@@ -133,6 +139,7 @@ fread(price_list, sizeof(int), 5, f);
 Suatu array (dynamic size) juga dapat dibaca/ditulis dengan mudah dalam file jika menggunakan mode random-access (binary) dengan block size adalah ukuran tiap-tiap elemen array. Perhatikan contoh di bawah
 
 Penulisan (write):
+
 ```c
 FILE *f;
 int price_list[100];
@@ -156,6 +163,7 @@ for (i = 0; i < item_count; i++) {
 ```
 
 Pembacaan (read):
+
 ```c
 FILE *f;
 int price_list[100];
@@ -181,6 +189,7 @@ for (i = 0; i < item_count; i++) {
 Suatu obyek bertipe struct juga dapat dibaca/tulis dengan mudah dalam file jika menggunakan mode random-access (binary) dengan block size adalah ukuran struct obyek tersebut. Perhatikan contoh di bawah
 
 Asumsikan `struct Weapon` terdefinisi sebagai:
+
 ```c
 struct Weapon {
     char name[50];
@@ -191,6 +200,7 @@ struct Weapon {
 ```
 
 Penulisan (write):
+
 ```c
 FILE *f;
 struct Weapon deagle;
@@ -206,6 +216,7 @@ fwrite(&deagle, sizeof(struct Weapon), 1, f);
 ```
 
 Pembacaan (read):
+
 ```c
 FILE *f;
 struct Weapon deagle;
@@ -220,9 +231,11 @@ print_weapon(&deagle);
 ## File Seeking
 
 Kursor yang merujuk ke lokasi target operasi pembacaan/penulisan berikutnya dalam file random-access (binary) dapat dipindah-pindah menggunakan fungsi **fseek()** pada **stdio.h** dengan deklarasi sebagai berikut:
+
 ```c
 int fseek(FILE *f, long int offset, int origin);
 ```
+
 Fungsi tersebut mengatur kursor pada file `f` supaya berjarak sebesar `offset` bytes relatif terhadap `origin`, dengan `origin` adalah salah satu dari:
 
 - `SEEK_SET` : lokasi kursor pada awal file
@@ -230,6 +243,7 @@ Fungsi tersebut mengatur kursor pada file `f` supaya berjarak sebesar `offset` b
 - `SEEK_END` : lokasi kursor pada akhir file
 
 Sebagai contoh:
+
 ```c
 FILE *f;
 int price_list[5] = {750, 1500, 2500, 3100, 4750};

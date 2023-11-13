@@ -44,6 +44,12 @@
   2. [Bit manipulation](BAB%208/2-BitManipulation.md)
   3. [Enumeration](BAB%208/3-Enum.md)
 
+- ### BAB 9 - File Processing
+
+  1. [Pengantar](BAB%209/1-Pengantar.md)
+  2. [Sequential Access](BAB%209/2-SequentialAccess.md)
+  3. [Random Access](BAB%209/3-RandomAccess.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
