@@ -50,7 +50,16 @@
   2. [Sequential Access](BAB%209/2-SequentialAccess.md)
   3. [Random Access](BAB%209/3-RandomAccess.md)
 
+- ### BAB 10 - Struktur Data
+
+  1. [Array Linked List](BAB%2010/1-ArrayLinkedList.md)
+  2. [Stack dan Queue](BAB%2010/2-StackQueue.md)
+  3. [Tree](BAB%2010/3-Tree.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
   3. [Praktikum 3](Tugas/Praktikum-3.md)
+  4. [Praktikum 7](Tugas/Praktikum-7.md)
+  5. [Praktikum 8](Tugas/Praktikum-8.md)
+  6. [Praktikum 9](Tugas/Praktikum-9.md)
