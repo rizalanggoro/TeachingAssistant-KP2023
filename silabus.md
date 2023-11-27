@@ -56,6 +56,12 @@
   2. [Stack dan Queue](BAB%2010/2-StackQueue.md)
   3. [Tree](BAB%2010/3-Tree.md)
 
+- ### BAB 11 - Preprocessor
+
+  1. [Pengantar](BAB%2011/1-Pengantar.md)
+  2. [Symbolic Constant dan Macro](BAB%2011/2-Symbolic-Constant-dan-Macro.md)
+  3. [Conditional Compilation](BAB%2011/3-ConditionalCompilation.md)
+
 - ### Tugas
   1. [Praktikum 1](Tugas/Praktikum-1.md)
   2. [Praktikum 2](Tugas/Praktikum-2.md)
@@ -63,3 +69,4 @@
   4. [Praktikum 7](Tugas/Praktikum-7.md)
   5. [Praktikum 8](Tugas/Praktikum-8.md)
   6. [Praktikum 9](Tugas/Praktikum-9.md)
+  7. [Praktikum 10](Tugas/Praktikum-10.md)
