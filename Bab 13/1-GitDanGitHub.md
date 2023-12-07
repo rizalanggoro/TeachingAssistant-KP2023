@@ -74,6 +74,63 @@ git push <remote> <branch>
 git push origin main
 ```
 
+<details>
+
+<summary>Jangan Lupa</summary>
+
+![Git Graph](img/meme1.jpg?raw=true)
+
+</details>
+
+### Mendapatkan update dari remote repository
+perintah `git pull` akan mengambil commit terbaru dari remote repository dan langsung menggabungkannya ke branch yang berada di lokal. Gunakan saat kita tidak mempunyai commit yang belum dipush ke remote repository.
+``` bash
+git pull <remote> <branch>
+git pull origin main
+```
+
+perintah `git fetch` akan mengambil commit terbaru dari remote repository dan tidak langsung menggabungkan dengan branch di lokal. Gunakan saat kita mempunyai commit yang belum dipush ke remote repository.
+``` bash
+git fetch <remote> <branch>
+git fetch origin main
+```
+
+
+### Membuat branch baru 
+``` bash
+git branch <nama branch baru>
+git branch fix-typo-bab13
+```
+### Melihat daftar branch
+``` bash
+git branch -v
+```
+
+### Melakukan Checkout untuk berpindah branch 
+``` bash
+git checkout -b <nama branch tujuan>
+git checkout -b fix-typo-bab13
+```
+
+### Melakukan Checkout untuk kembali ke commit yang pernah dibuat 
+``` bash
+git checkout <commit hash>
+git checkout abd8be5bd3766f34a215eaadc0004c5ce5b90dd2
+```
+
+> [!WARNING]
+> Pastikan sebelum melakukan checkout, lakukan commit untuk perubahan yang baru saja dibuat agar pekerjaan tidak hilang, gunakan perintah `git status` untuk melihat daftar file yang terubah.
+
+
+### Melakukan merge untuk menggabungkan 2 branch 
+``` bash
+git merge <branch tujuan>
+
+git checkout main
+git merge fix-typo-bab13
+```
+
+
 ## Reference
 
 [Petanikode - Tutorial Belajar Git untuk Pemula](https://www.petanikode.com/tutorial/git/)
