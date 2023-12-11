@@ -1,7 +1,7 @@
 # RESPONSI 2 - PRAKTIKUM KONSEP PEMROGRAMAN 2023
 
 - Pengerjaan : Individu
-- Durasi : 2 minggu
+- Durasi : 3 minggu
 
 Buatlah program manajemen data mahasiswa, yang berupa struct dan berisi:
 1. NIM
@@ -9,7 +9,7 @@ Buatlah program manajemen data mahasiswa, yang berupa struct dan berisi:
 3. Jenis kelamin
 4. IPK
 
-Pastikan program dapat menambah, mengubah, menghapus, mencetak data mahasiswa, serta mengimpor dan mengekspor data mahasiswa dari file .txt menggunakan File Handling yang sudah kalian pelajari. Kalian bisa membuat antarmuka untuk user agar dapat memilih keenam pilihan tersebut.
+Pastikan program dapat menambah, mengubah, menghapus, mencetak data mahasiswa, serta mengimpor dan mengekspor data mahasiswa dari file .txt / .bin menggunakan File Handling yang sudah kalian pelajari. Kalian bisa membuat antarmuka untuk user agar dapat memilih keenam pilihan tersebut.
 
 Pastikan kalian memberikan penjelasan program kalian dengan memberi komentar di samping atau di atas kode yang dibuat. Selain ketentuan di atas, kalian bebas untuk mengkreasikan program kalian.
 
